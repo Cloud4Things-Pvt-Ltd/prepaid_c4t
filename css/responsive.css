@@ -17,16 +17,20 @@
     }
     
 }
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1350px) {
     form.project-dropdown label {
         font-size: 10px;
+    }
+    .menu li a {
+        padding: 20px 14px;
     }
 }
 @media screen and (max-width: 1200px) {
     
     .menu li a {
-        font-size: 10px;
-        padding: 33px 5px;
+        font-size: 12px;
+        padding: 20px 5px;
+        font-weight: 400;
     }
 }
 
@@ -39,7 +43,11 @@
     .container {
         width: 950px !important;
     }
-  
+    #chart1 .apexcharts-canvas {
+        margin-left: -80px !important;
+        transform: scale(0.8) !important;
+    }
+    
 }
 
 @media screen and (max-width: 991px) {
@@ -52,7 +60,7 @@
         top: 0;
         right: -100%;
         display: block;
-        background: var(--dark-color);
+        background: #000;
         z-index: 9999999;
         height: 100vh;
         width: 250px;
@@ -66,8 +74,8 @@
         padding-left: 0;
     }
     ul.menu {
-        margin: 0;
-        padding: 0;
+        margin: 0px 0 0 -10px !important;
+        padding: 0px !important;
     }
     .notification svg {
         fill: var(--bg-color);
@@ -80,16 +88,21 @@
 
 .toggle-s-box {
     margin: -27px auto 10px;
-    float: right;
+    float: none;
     clear: both;
 }
 .user-sec {
-    margin: 30px 0;
+    margin: 0px 0;
+    text-align: center;
+}
+.user-sec h4 {
+    color: var(--bg-color) !important;
 }
 form.project-dropdown select {
     width: 100%;
     padding-left: 11px;
     background: #fff;
+    margin: 0 0 0 -10px;
 }
     form.project-dropdown label {
         font-size: 13px;
@@ -218,7 +231,7 @@ form.project-dropdown select {
 }
 
 @media screen and (max-width: 675px ) {
-    
+   
 }
 
 @media screen and (max-width: 600px) {
@@ -233,12 +246,51 @@ form.project-dropdown select {
     .site-box1 img{
         display: none;
     }
+    .middle-part {
+        padding: 0;
+    }
+    footer.main-footer {
+        position: inherit;
+    }
+    div#chcp_font_size {
+        float: none;
+        width: 100px;
+        margin: 0 auto 20px;
+    }
+    footer.main-footer p {
+        margin: 0;
+        color: #fff;
+        padding: 10px 0;
+        text-align: center;
+    }
+    .second-part .card.mb-4 {
+        margin-bottom: 10px !important;
+        height: auto;
+    }
+    .second-part .shadow {
+        width: 60px;
+        margin: 11px auto;
+    }
+    .numbers {
+        margin: 4px 0 0 0;
+        text-align: center;
+    }
+    .row.stat-each h4 {
+        font-size: 12px;
+    }
 }
 
 @media screen and (max-width: 575px) {
-
+    .site-name h4 span {
+        margin: 10px 0 0;
+        float: none;
+        display: inline-block;
+    }
+    
 }
 
-@media screen and (max-width: 375px) {}
+@media screen and (max-width: 375px) {
+ 
+}
 
 @media screen and (max-width: 320px) {}

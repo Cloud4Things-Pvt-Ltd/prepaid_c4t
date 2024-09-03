@@ -13,7 +13,7 @@
   font-weight: bold;
   font-style: normal;
   font-display: swap;
-}
+} 
 
 @font-face {
   font-family: 'Gilroy';
@@ -312,23 +312,23 @@ background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%)
   margin: 0 auto;
   display: block;
   background: var(--bg-color);
-  padding: 10px;
+  padding: 10px 0 0 0;
 }
 
 form.project-dropdown {
   margin: 10px 0 0 0;
-  text-align: right;
+  text-align: center;
 }
 
 form.project-dropdown select {
   width: 100%;
   border: none;
   border-radius: 5px;
-  padding: 9px 10px;
+  padding: 12px 10px;
   font-size: 12px;
   background: #d0d0d030;
   color: #000;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 form.project-dropdown label {
@@ -340,7 +340,7 @@ form.project-dropdown label {
 
 ul.menu {
   margin: 0;
-  text-align: right;
+  text-align: center;
 }
 
 .full-menu.slide-right {
@@ -354,10 +354,10 @@ ul.menu {
 .menu li a {
   color: var(--dark-color);
   text-decoration: none;
-  font-size: 12px;
+  font-size: 14px;
   display: block;
-  font-weight: 400;
-  padding: 20px 10px;
+  font-weight: 600;
+  padding: 20px 20px;
   text-transform: capitalize;
 }
 
@@ -606,6 +606,7 @@ ul.sidebar-fixed {
   background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
   padding: 5px;
   border-radius: 5px;
+  width: 50px;
 }
 
 .second-part .card.mb-4 {
@@ -620,7 +621,7 @@ ul.sidebar-fixed {
 .numbers p {
   font-weight: 600;
   padding: 0 0 0;
-  font-size: 11px;
+  font-size: 13px;
   font-family: var(--main-font);
 }
 
@@ -1908,13 +1909,13 @@ h6,
 
 #m-chart1 canvas#BA-chart-job-error {
   width: 100% !important;
-  height: 318px !important;
+  height: 400px !important;
   object-fit: cover;
 }
 
 #m-chart2 canvas#BA-chart-job-error1 {
   width: 100% !important;
-  height: 318px !important;
+  height: 400px !important;
   object-fit: cover;
 }
 
