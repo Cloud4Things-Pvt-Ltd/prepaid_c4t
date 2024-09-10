@@ -171,7 +171,7 @@
                     <!--second-part-->
                     <section class="second-part">
                         <div class="row">
-                            <div class="col-xxl-2 col-xl-3 col-lg-3 col-md-4 col-sm-5 col-12">
+                            <div class="col-xxl-2 col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12">
                                 <h1 class="mb-3">DG Status</h1>
                                 <div class="dg-sec">
                                     <ul>
@@ -185,7 +185,7 @@
                                     </ul>
                                 </div>
                             </div>
-                            <div class="col-xxl-10 col-xl-9 col-lg-9 col-md-8 col-sm-12 col-12">
+                            <div class="col-xxl-10 col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12">
                                 <h1 class="mb-3">Current Month Summary</h1>
                                 <div class="row">
                                     <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
@@ -504,7 +504,7 @@
                                 <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                                     <h1 style="margin-bottom: 30px;">Health of Device</h1>
                                 </div>
-                                <div class="col-xxl-7 col-xl-7 col-lg-7 col-md-7 col-sm-12 col-12">
+                                <div class="col-xxl-7 col-xl-7 col-lg-7 col-md-12 col-sm-12 col-12">
                                     <div class="row">
                                         <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
                                             <div class="health-each">
@@ -599,13 +599,13 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-5 col-sm-12 col-12">
-                                    <div class="row health-each">
+                                <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-12 col-sm-12 col-12">
+                                    <div class="row health-each" style="padding: 30px 0 11px 0;">
                                         <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-13 col-sm-12 col-12">
                                             <h5>Discovered Meters</h5>
                                         </div>
                                         <div class="col-xxl-8 col-xl-8 col-lg-8 col-md-8 col-sm-12 col-12">
-                                            <div class="chart-inner" id="m-chart3">
+                                            <div class="chart-inner" id="m-chart3" style="transform: scale(1.1); margin: 10px 0px 0 50px;">
                                                 <canvas id="BA-chart-job-error2" id="m-chart-3" width="800"
                                                     height="600"></canvas>
                                             </div>
@@ -650,7 +650,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="row health-each"  style="display: inline-flex;margin: 18px -10px;">
+                                    <div class="row health-each"  style="display: inline-flex;margin: 18px -10px; padding: 40px 0 20px 0;">
                                         <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-13 col-sm-12 col-12">
                                             <h5>DGs</h5>
                                         </div>
@@ -708,7 +708,7 @@
                                     <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                                         <h1>Balance</h1>
                                         <div id="chart1"></div>
-                                        <div class="row">
+                                        <div class="row" style="margin: 0 -23px;">
                                             <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12 p-0">
                                                 <div class="mb-2">
                                                     <div class="in-icon"><img alt="image" src="images/in-icon.png">
@@ -771,13 +771,13 @@
                             <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
                                 <div class="row stat-each">
                                     <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-                                        <h1>Positive Balance</h1>
+                                        <h1>Positive Balance Count</h1>
                                         <ul>
-                                            <li> Total Postive Count <span class="float-end bg-info"> <a href="#"
+                                            <li> Total Postive <span class="float-end bg-info"> <a href="#"
                                                         class="text-light">1336</a> </span></li>
-                                            <li> Total Not Cut Count <span class="float-end bg-success"><a href="#"
+                                            <li> Total Not Cut <span class="float-end bg-success"><a href="#"
                                                         class="text-light"> 1336</a> </span></li>
-                                            <li> Total Cut Count <span class="float-end bg-danger"><a href="#"
+                                            <li> Total Cut<span class="float-end bg-danger"><a href="#"
                                                         class="text-light">0 </a> </span></li>
                                         </ul>
 
@@ -785,14 +785,14 @@
                                 </div>
                                 <div class="row stat-each">
                                     <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-                                        <h1>Negative Balance (Based On Cut Balance)
+                                        <h1>Negative Balance Count
                                         </h1>
                                         <ul>
-                                            <li> Total Negative Count <span class="float-end bg-info"> <a href="#"
+                                            <li> Total Negative <span class="float-end bg-info"> <a href="#"
                                                         class="text-light"> 182</a> </span></li>
-                                            <li> Total Cut Count <span class="float-end bg-success"><a href="#"
+                                            <li> Total Cut <span class="float-end bg-success"><a href="#"
                                                         class="text-light"> 148</a> </span></li>
-                                            <li> Total Not Cut Count <span class="float-end bg-danger"><a href="#"
+                                            <li> Total Not Cut<span class="float-end bg-danger"><a href="#"
                                                         class="text-light"> 34 </a> </span></li>
                                         </ul>
 
