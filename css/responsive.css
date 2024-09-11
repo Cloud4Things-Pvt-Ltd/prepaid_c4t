@@ -17,12 +17,22 @@
     }
     
 }
-@media screen and (max-width: 1350px) {
+@media screen and (max-width: 1400px) {
     form.project-dropdown label {
         font-size: 10px;
     }
     .menu li a {
         padding: 20px 14px;
+    }
+    .dg-sec {
+        padding: 35px 14px 15px 14px;
+        display: flex;
+    }
+    .dg-sec ul li {
+        line-height: 58px;
+        width: 100%;
+        float: left;
+        margin-right: 30px;
     }
 }
 @media screen and (max-width: 1200px) {
@@ -52,30 +62,12 @@
         line-height: 58px;
     } */
     
-    .dg-sec {
-        padding: 19px 14px 7px 14px;
-        display: block;
-    }
-    .dg-sec ul li {
-        line-height: 48px;
-        width: 100%;
-        float: none;
-        margin-right: 0;
-    }
+    
 }
 
 @media screen and (max-width: 1100px) {
     
-    .dg-sec {
-        padding: 35px 14px 15px 14px;
-        display: flex;
-    }
-    .dg-sec ul li {
-        line-height: 58px;
-        width: 100%;
-        float: left;
-        margin-right: 30px;
-    }
+    
 }
 
 @media screen and (max-width: 992px) {
@@ -330,6 +322,11 @@ form.project-dropdown select {
         width: 100%;
         float: left;
         margin-right: 0;
+    }
+    .third-part .shadow {
+        padding: 12px 0;
+        float: none;
+        margin: 0 auto;
     }
 }
 

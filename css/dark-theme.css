@@ -31,8 +31,9 @@ body.dark {
   color: var(--bs-light);
 }
 .card {
-  background-color: var(--bs-gray-dark);
-  border: none;
+  background-color: #747474 !important;
+  border: none !important;
+  text-align: center;
 }
 .numbers h5 {
   color: var(--bg-color);
