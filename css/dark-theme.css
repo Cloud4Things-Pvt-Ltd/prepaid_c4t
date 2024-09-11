@@ -6,7 +6,7 @@ body.dark {
       }
       .main-header, .sticky {
         box-shadow: none;
-        background: var(--color8) !important;
+        background: #242424 !important;
     }
     .site-left {
       background: #000000;
@@ -31,15 +31,23 @@ body.dark {
   color: var(--bs-light);
 }
 .card {
-  background-color: #747474 !important;
+  background-color: #242424 !important;
   border: none !important;
-  text-align: center;
+  text-align: left;
+}
+.third-part .shadow {
+  width: 30px;
+  padding: 12px 0;
+  float: left;
+  opacity: 1;
+  box-shadow: none !important;
+  filter: saturate(80);
 }
 .numbers h5 {
   color: var(--bg-color);
 }
 .row.stat-each {
-  background: var(--bs-gray-dark);
+  background: #242424;
 }
 .checkbox-label {
   background-color: #6c757d;
