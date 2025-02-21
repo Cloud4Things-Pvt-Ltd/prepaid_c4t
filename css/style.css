@@ -428,7 +428,6 @@ ul.menu {
 /****end***/
 .main-site-area {
     padding: 30px 20px 30px 40px;
-    background: #000;
 }
 
 /*Theme Switcher*/
@@ -619,10 +618,10 @@ ul.sidebar-fixed {
 }
 
 .numbers p {
-    font-weight: 600;
-    padding: 0 0 0;
-    font-size: 15px;
-    font-family: var(--main-font);
+  font-weight: 600;
+  padding: 0 0 0;
+  font-size: 14px;
+  font-family: var(--main-font);
 }
 
 .numbers h5 {
@@ -809,7 +808,7 @@ section.login-sec {
   color: #5e5fac;
   font-weight: 600;
   padding: 20px 0 0 0;
-  font-size: 12px;
+  font-size: 15px;
   font-family: var(--main-font);
 }
 
@@ -824,7 +823,7 @@ section.login-sec {
   width: fit-content;
   /* color: var(--bg-color); */
   border-radius: 5px;
-  font-size: 16px;
+  font-size: 18px;
   position: relative;
 }
 
@@ -851,8 +850,8 @@ section.third-part {
 
 .row.stat-each li {
   line-height: 28px;
-  font-size: 12px;
-  font-weight: 600;
+  font-size: 14px;
+  font-weight: 500;
 }
 
 .row.stat-each ul {
@@ -947,7 +946,7 @@ section.third-part {
   color: #5e5fac;
   font-weight: 600;
   padding: 0px 0 0 0;
-  font-size: 11px;
+  font-size: 15px;
 }
 
 .in-icon img {
@@ -1605,8 +1604,8 @@ h6,
 .login-16 .form-section p {
   color: #939393;
   margin-bottom: 0;
-  font-size: 11px;
-  font-weight: 600;
+  font-size: 16px;
+  font-weight: 500;
   font-style: italic;
   padding: 10px 0 0;
 }
@@ -1632,7 +1631,7 @@ h6,
 
 .login-16 .form-section h3 {
   margin: 0 0 15px;
-  font-size: 16px;
+  font-size: 24px;
   font-weight: 400;
   color: #040404;
   font-family: 'Gilroy';
